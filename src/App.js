@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          we were on a break.
+          Pivot Pivot Pivot Pivot.
         </p>
         <a
           className="App-link"
