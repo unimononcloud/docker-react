@@ -1,0 +1,11 @@
+SUDO: required
+language: generic
+
+services:
+  - docker
+
+before_install:
+  - docker build -t unimononcloud\docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true unimononcloud\docker-react npm run test
